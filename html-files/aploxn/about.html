@@ -94,6 +94,28 @@
         </ul>
       </div>
       <!-- End Top Bar section -->
+      <!-- Calendly badge widget begin -->
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        type="text/javascript"
+        async
+      ></script>
+      <script type="text/javascript">
+        window.onload = function () {
+          Calendly.initBadgeWidget({
+            url: "https://calendly.com/jonathan-symtara/ai-solutions-discovery-call",
+            text: "Book A Discovery Call",
+            color: "#0069ff",
+            textColor: "#ffffff",
+            branding: undefined,
+          });
+        };
+      </script>
+      <!-- Calendly badge widget end -->
       <!-- Start header section -->
       <header class="header-area style-2">
         <div class="header-logo">
@@ -664,25 +686,6 @@
                   </h2>
                 </div>
                 <div class="review-and-feature">
-                  <a href="#" class="review-area white">
-                    <div class="review-name">
-                      <span>Review On</span>
-                      <img
-                        src="assets/img/home1/clutch-logo-white.svg"
-                        alt=""
-                      />
-                    </div>
-                    <div class="review">
-                      <ul>
-                        <li><i class="bi bi-star-fill"></i></li>
-                        <li><i class="bi bi-star-fill"></i></li>
-                        <li><i class="bi bi-star-fill"></i></li>
-                        <li><i class="bi bi-star-fill"></i></li>
-                        <li><i class="bi bi-star-half"></i></li>
-                      </ul>
-                      <span>(50 reviews)</span>
-                    </div>
-                  </a>
                   <ul class="features">
                     <li>Problem Solving</li>
                     <li>Determine Probelm</li>
